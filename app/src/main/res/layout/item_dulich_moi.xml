@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+    app:cardCornerRadius="4dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/itemDl_image"
+                android:src="@drawable/ic_media_24"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+            <TextView
+                android:id="@+id/itemDl_ten"
+                android:text="Ten du lich"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/itemDl_batdau"
+                android:text="ngay bat dau"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/itemDl_ketthuc"
+                android:text="ngay ket thuc"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/itemDl_gia"
+                android:text="gia : 11111111"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_red_light"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/iconnew_w512"
+            android:layout_gravity="top|right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>
